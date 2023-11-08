@@ -13,8 +13,8 @@ export class AppComponent {
     layers: [
       tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 50, attribution: '...' })
     ],
-    zoom: 5,
-    center: latLng(46.879966, -121.726909)
+    zoom: 13,
+    center: latLng(-19.912998, -43.940933)
   };
   public map!: Map;
   public zoom!: number;
