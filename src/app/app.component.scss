@@ -1,5 +1,14 @@
-.map-container {
-  width: 1000px;
-  height: 500px;
-  position: inherit;
+:host {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  .map-container {
+    width: 80%;
+    height: 80%;
+    position: inherit;
+  }
 }
